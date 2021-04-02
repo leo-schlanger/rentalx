@@ -48,5 +48,5 @@
   - the rental must have a minimum duration of 24 hour.
   - it should not be able to register a rental if there is already an open one for the same user.
   - it should not be able to register a rental if there is already an open one for the same car.
-  
+  - the user need logged in application.
 

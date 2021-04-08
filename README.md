@@ -49,4 +49,26 @@
   - it should not be able to register a rental if there is already an open one for the same user.
   - it should not be able to register a rental if there is already an open one for the same car.
   - the user need logged in application.
+  - when making a rental, the car's status should be able to changed to unavailable.
+
+ # Devolution car
+ **Functional Requirements**
+  - it should be able to return a car. 
+
+ **Business Rule**
+  - if the car is returned with less than 24 hours, it must be charged the full day. 
+  - when making the return, the car must be released for another rental. 
+  - when making the return, the user must be released for another rental.
+  - when making the return, the total rent must be calculated.
+  - if the return time is longer than the expected delivery time, a fine proportional to the days of delay should be charged. 
+  - if there is a fine, it should be added to the rent.
+  - the user need logged in application.
+
+# List Rentals
+
+**Functional Requirements**
+ - should be able to search for all rentals for the user 
+
+**Business Rule**
+ - the user need logged in application.
 

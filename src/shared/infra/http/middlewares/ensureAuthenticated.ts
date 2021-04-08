@@ -26,7 +26,6 @@ export async function ensureAuthenticated(
       token,
       "d323ef6e92cf06d5af36be6864446a72"
     ) as IPayload;
-    console.log(user_id);
 
     const usersRepository = new UsersRepository();
 

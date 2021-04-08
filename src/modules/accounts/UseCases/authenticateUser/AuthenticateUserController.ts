@@ -20,6 +20,7 @@ class AuthenticateUserController {
         name: authenticated.user.name,
         email: authenticated.user.email,
       },
+      refresh_token: authenticated.refresh_token,
     });
   }
 }

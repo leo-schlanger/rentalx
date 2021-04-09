@@ -72,3 +72,14 @@
 **Business Rule**
  - the user need logged in application.
 
+# Password Recovery
+ 
+**Functional Requirements**
+ - should be able to the user to recover the password informing the email.
+ - the user should receive an email with the password recovery step by step.
+ - the user must be able to enter a new password.
+
+**Business Rule**
+ - the user needs to enter a new password.
+ - the link sent must expire in 3 hours.
+
